@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mavenspringmvc]">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+  </listeners>
+  <test name="testlogin(failed)">
+    <classes>
+      <class name="com.htc.test.LoginAutomation">
+        <methods>
+          <include name="testSuccessLoginLogout" invocation-numbers="0 1"/>
+          <include name="initializeDriver"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- com.htc.test.LoginAutomation -->
+    </classes>
+  </test> <!-- testlogin(failed) -->
+  <test name="testregistration(failed)">
+    <classes>
+      <class name="com.htc.test.RegisterAutomation">
+        <methods>
+          <include name="testSuccessLoginLogout" invocation-numbers="0 1"/>
+          <include name="initializeDriver"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- com.htc.test.RegisterAutomation -->
+    </classes>
+  </test> <!-- testregistration(failed) -->
+</suite> <!-- Failed suite [Mavenspringmvc] -->

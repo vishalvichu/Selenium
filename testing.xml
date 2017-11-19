@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mavenspringmvc">
+<listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+ </listeners>
+<test name="testlogin">
+<classes>
+<class name="com.htc.test.LoginAutomation" />
+</classes>
+</test>
+<test name="testregistration">
+<classes>
+<class name="com.htc.test.RegisterAutomation" />
+</classes>
+</test>
+</suite>

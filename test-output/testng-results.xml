@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mavenspringmvc" duration-ms="17091" started-at="2017-10-11T10:46:10Z" finished-at="2017-10-11T10:46:28Z">
+    <groups>
+    </groups>
+    <test name="testlogin" duration-ms="13561" started-at="2017-10-11T10:46:10Z" finished-at="2017-10-11T10:46:24Z">
+      <class name="com.htc.test.LoginAutomation">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="initializeDriver" is-config="true" duration-ms="668" started-at="2017-10-11T16:16:10Z" finished-at="2017-10-11T16:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="12451" started-at="2017-10-11T16:16:11Z" data-provider="validLoginData" finished-at="2017-10-11T16:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sayooj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123Welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessLoginLogout -->
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="425" started-at="2017-10-11T16:16:24Z" data-provider="validLoginData" finished-at="2017-10-11T16:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gopi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessLoginLogout -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="closedriver" is-config="true" duration-ms="1" started-at="2017-10-11T16:16:24Z" finished-at="2017-10-11T16:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- com.htc.test.LoginAutomation -->
+    </test> <!-- testlogin -->
+    <test name="testregistration" duration-ms="2807" started-at="2017-10-11T10:46:25Z" finished-at="2017-10-11T10:46:28Z">
+      <class name="com.htc.test.RegisterAutomation">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="initializeDriver" is-config="true" duration-ms="78" started-at="2017-10-11T16:16:25Z" finished-at="2017-10-11T16:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1511" started-at="2017-10-11T16:16:25Z" data-provider="registeruser" finished-at="2017-10-11T16:16:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jithu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123Welcome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jithu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jithu666@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ddsa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[989509316]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessLoginLogout -->
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1208" started-at="2017-10-11T16:16:26Z" data-provider="registeruser" finished-at="2017-10-11T16:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sachin77@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[dsadd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[898877697]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessLoginLogout -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="closedriver" is-config="true" duration-ms="0" started-at="2017-10-11T16:16:28Z" finished-at="2017-10-11T16:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- com.htc.test.RegisterAutomation -->
+    </test> <!-- testregistration -->
+  </suite> <!-- Mavenspringmvc -->
+</testng-results>
