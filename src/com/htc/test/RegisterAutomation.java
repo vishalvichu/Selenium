@@ -51,10 +51,10 @@ public class RegisterAutomation {
 	@Test(dataProvider = "registeruser")
 	public void testSuccessLoginLogout(String username, String password, String fname, String lname, String email,
 			String address, int phone) throws InterruptedException {
-		driver.get("http://172.16.51.12:8080/MavenSpringMVC/");
+		driver.get("http://localhost:8080/MavenProject/");
 		// Synchronize test execution with application execution.
 		WebElement register = (new WebDriverWait(driver, 15))
-				.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Register")));
+				.until(ExpectedConditions.presenceOfElementLocated(By.id("register")));
 		register.click();
 		WebElement uname = (new WebDriverWait(driver, 15))
 				.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));

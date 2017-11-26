@@ -47,9 +47,9 @@ public class LoginAutomation {
 
 	@Test(dataProvider="validLoginData")
 	public void testSuccessLoginLogout(String username, String password){
-		driver.get("http://172.16.51.12:8080/MavenSpringMVC/");
+		driver.get("http://localhost:8080/MavenProject/");
 		//Synchronize test execution with application execution.
-		WebElement login=(new WebDriverWait(driver, 15)).until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Login")));
+		WebElement login=(new WebDriverWait(driver, 15)).until(ExpectedConditions.presenceOfElementLocated(By.id("login")));
 		login.click();
 		WebElement uname = (new WebDriverWait(driver, 15)).until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
 		//WebElement unameElement = driver.findElement(By.name("user_name"));

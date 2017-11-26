@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Mavenspringmvc" duration-ms="17091" started-at="2017-10-11T10:46:10Z" finished-at="2017-10-11T10:46:28Z">
+  <suite name="Mavenspringmvc" duration-ms="30238" started-at="2017-11-26T05:29:44Z" finished-at="2017-11-26T05:30:14Z">
     <groups>
     </groups>
-    <test name="testlogin" duration-ms="13561" started-at="2017-10-11T10:46:10Z" finished-at="2017-10-11T10:46:24Z">
+    <test name="testlogin" duration-ms="17088" started-at="2017-11-26T05:29:44Z" finished-at="2017-11-26T05:30:01Z">
       <class name="com.htc.test.LoginAutomation">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="initializeDriver" is-config="true" duration-ms="668" started-at="2017-10-11T16:16:10Z" finished-at="2017-10-11T16:16:11Z">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.LoginAutomation@204f30ec]" name="initializeDriver" is-config="true" duration-ms="5008" started-at="2017-11-26T10:59:44Z" finished-at="2017-11-26T10:59:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="12451" started-at="2017-10-11T16:16:11Z" data-provider="validLoginData" finished-at="2017-10-11T16:16:24Z">
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@204f30ec]" name="testSuccessLoginLogout" duration-ms="10148" started-at="2017-11-26T10:59:49Z" data-provider="validLoginData" finished-at="2017-11-26T10:59:59Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="425" started-at="2017-10-11T16:16:24Z" data-provider="validLoginData" finished-at="2017-10-11T16:16:24Z">
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@204f30ec]" name="testSuccessLoginLogout" duration-ms="1820" started-at="2017-11-26T10:59:59Z" data-provider="validLoginData" finished-at="2017-11-26T11:00:01Z">
           <params>
             <param index="0">
               <value>
@@ -43,19 +43,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="closedriver" is-config="true" duration-ms="1" started-at="2017-10-11T16:16:24Z" finished-at="2017-10-11T16:16:24Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.LoginAutomation@204f30ec]" name="closedriver" is-config="true" duration-ms="11" started-at="2017-11-26T11:00:01Z" finished-at="2017-11-26T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- com.htc.test.LoginAutomation -->
     </test> <!-- testlogin -->
-    <test name="testregistration" duration-ms="2807" started-at="2017-10-11T10:46:25Z" finished-at="2017-10-11T10:46:28Z">
+    <test name="testregistration" duration-ms="13057" started-at="2017-11-26T05:30:01Z" finished-at="2017-11-26T05:30:14Z">
       <class name="com.htc.test.RegisterAutomation">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="initializeDriver" is-config="true" duration-ms="78" started-at="2017-10-11T16:16:25Z" finished-at="2017-10-11T16:16:25Z">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.RegisterAutomation@5f2108b5]" name="initializeDriver" is-config="true" duration-ms="615" started-at="2017-11-26T11:00:01Z" finished-at="2017-11-26T11:00:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1511" started-at="2017-10-11T16:16:25Z" data-provider="registeruser" finished-at="2017-10-11T16:16:26Z">
+        <test-method status="FAIL" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@5f2108b5]" name="testSuccessLoginLogout" duration-ms="10003" started-at="2017-11-26T11:00:02Z" data-provider="registeruser" finished-at="2017-11-26T11:00:12Z">
           <params>
             <param index="0">
               <value>
@@ -93,10 +93,51 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome] but found [HTTP Status 500 – Internal Server Error]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome] but found [HTTP Status 500 – Internal Server Error]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.htc.test.RegisterAutomation.testSuccessLoginLogout(RegisterAutomation.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1208" started-at="2017-10-11T16:16:26Z" data-provider="registeruser" finished-at="2017-10-11T16:16:28Z">
+        <test-method status="FAIL" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@5f2108b5]" name="testSuccessLoginLogout" duration-ms="2401" started-at="2017-11-26T11:00:12Z" data-provider="registeruser" finished-at="2017-11-26T11:00:14Z">
           <params>
             <param index="0">
               <value>
@@ -134,10 +175,51 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome] but found [HTTP Status 500 – Internal Server Error]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome] but found [HTTP Status 500 – Internal Server Error]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.htc.test.RegisterAutomation.testSuccessLoginLogout(RegisterAutomation.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="closedriver" is-config="true" duration-ms="0" started-at="2017-10-11T16:16:28Z" finished-at="2017-10-11T16:16:28Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.RegisterAutomation@5f2108b5]" name="closedriver" is-config="true" duration-ms="6" started-at="2017-11-26T11:00:14Z" finished-at="2017-11-26T11:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
